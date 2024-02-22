@@ -1,0 +1,9 @@
+- hosts: all
+  gather_facts: false  
+  tasks:
+  - import_role:
+      name: sshuser 
+    tags:
+    - sshuser
+
+    
